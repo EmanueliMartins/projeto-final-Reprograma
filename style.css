@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+    
+    border: 0;
+}
+html{
+    
+    width: 100%;
+    height: 100%;
+}
+ header{
+    display: block;
+    background-size: cover
+ }
+ .header__div-nav{
+    font-size: 30px;
+     display:flex;
+     background-color:mistyrose;
+     width: 100%;
+     top:0;
+     position:fixed;
+     height: 130px;
+     align-items: center;
+     padding: 20px;
+     padding-left: 150px;
+     padding-right: 150px;
+ }
+.header__nav{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    background-color: mistyrose;
+}
+.header__img{
+    width: 105px;
+    margin-right: 200px;
+}
+header a{
+    color: black;
+    border-radius: 0%;
+}
+.header__div{
+    width: 100%;
+    margin-top: 90px;
+    padding: 200px;
+    font-size: 30px;
+   
+}
+
+.header__h3{
+    font-size: 20px;
+    color:black;
+}
+/* main */
+main{
+    width: 100%;
+    padding: 0 400px 0 400px;
+}
+.main__div-h2{
+    font-size: 30px;
+}
+
+.main__section-ul{
+    list-style: none;
+    font-size: 25px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    color: #222;
+  }
+  
+  .form-1 {
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin: 0 0 0rem 0;
+  }
+  
+  .form-2{
+    width: 100%;
+    
+  }
+
+  .form-field {
+    display: flex;
+    margin: 0 0 1rem 0;
+    width: 100%;
+  }
+  label, input {
+    width: 50%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+  label {
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    width: 90px;
+  }
+  input {
+    border: 2px solid black;
+    border-radius: 2px;
+  }
+  
+
+section{
+    text-align: center;
+}
+
+footer{
+    margin-top: 80px; 
+    color: black;
+    text-align: center;
+    padding: 70px;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    border-top: 2px black;
+    background-color: mistyrose;
+    
+    
+}
+
+
+    
+
+

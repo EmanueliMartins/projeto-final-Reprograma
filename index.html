@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <script src="script.js"></script>
+        <div class="header__div-nav">
+            <img src="./imagens/logo Projeto final.jpg" alt="logo maternidade solidaria" class="header__img" />
+            <nav class="header__nav">
+                <a href="#" class="header__nav-a">Quem Somos</a>
+                <a href="#cadastro" class="header__nav-a">Cadastro</a>
+                <a href="#queroajudar" class="header__nav-a">Quero Ajudar</a>
+                <a href="#contato" class="header__nav-a">Contato</a>
+               
+            </nav> 
+        </div>
+
+        <div class="header__div">
+
+            <h1> Maternidade Solidaria</h1>
+            <h2 class="header__h2">
+                Conheça a Maternidade Solidária
+            </h2>
+
+
+            <div class="header__h3">
+            <h3>" Há mais de 20 anos atuando, nosso grupo ajuda gestantes em situação de vulnerabilidade na chegada de seus bebês. Precisamos de doações de roupinhas, mantas, cobertores para bebês, novos e/ou usados em condições de uso imediato e kits de higiene mamãe e bebê."</h3>
+            </div>
+            <img src="../imagens/realizando doacao"> 
+        
+        </div>
+
+    </header> 
+    <main>
+            <div class="main__div-div">
+                <section class="main__section">
+                    
+                    <h3 class="main__div-h2" id="cadastro">Cadastro</h3>
+            
+                    <h1> Você gestante faça seu cadastro para receber seu enxoval !</h1>
+                
+                    <div class="form-1">
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" />
+                
+                        </div>
+                
+                        <div>
+                            <label for="semanas">Semanas de gestação:</label>
+                            <input type="text" id="semanas" />
+                        </div>
+                
+                        <div>
+                            <label for="endereço">Endereço:</label>
+                            <input type="text" id="endereço" />
+                        </div>
+                        <div>
+                            <label for="telefone">Telefone:</label>
+                            <input type="text" id="telefone" />
+                        </div>
+                        
+                        <div>
+                            <label for="sexo">Sexo do bebê:</label>
+                            <input type="text" id="sexo" />
+                        </div>
+                    </div>
+                    <div class="form-1" onclick="enviar()">
+                        <label for=""></label>
+                        <input type="submit" value="Enviar" />
+                        
+                     </div>
+                    </form>
+                
+                    <img src="../imagens/gestante">
+                
+
+                </section>
+                <section>
+                    <h3 class="main__div-h2"id="queroajudar">Seja um doador ! </h3>
+    
+                    <h2> Cadastre-se e ajude uma mãezinha </h2>
+                
+                    <div class="form-2">
+                        <form method="post" action="/" id="form" class="validate">
+                            <div class="form-field">
+                              <label for="full-name">Nome completo</label>
+                              <input type="text" name="full-name" id="full-name" placeholder="Jessica" required />
+                            </div>
+                            <div class="form-field">
+                              <label for="email-input">Email</label>
+                              <input type="email" name="email-input" id="email-input" placeholder="name@gmail.com" required />
+                            </div>
+                            <div class="form-field">
+                              <label for="telefone-input">Telefone</label>
+                              <input type="telefone" name="telefone" id="telefone-input" placeholder="0000-0000" required />
+                            </div>
+                            <div class="form-field">
+                                <label for="doar-input">O que deseja doar ? (fraldas, roupas, mantas)</label>
+                                <input type="doar" name="doar" id="doar" placeholder=" fralda ... manta" required />
+                              </div>
+                            
+                              <div class="form-field" onclick="enviar()">
+                                <label for=""></label>
+                                <input type="submit" value="Enviar" />
+                            </div>
+                    </form>
+                    
+                    <img src="../imagens/ajuda">
+
+
+                    <h3 class="main__div-h2"id="contato">Contato</h3>
+                        <ul class="main__section-ul">
+
+                            <li><p>Não fique com dúvidas. Fale com a gente!</p></li>
+                            <li><p>telefone:(13)98210-5800</p></li>
+                            <li><p>Email para contato:emanueli.martiins@gmail.com</p></li>
+                        </ul>
+
+                </section>
+            
+            </div>
+
+    </main>
+
+    <footer>
+        <div class="footer__div">
+            <p class="footer__div-p">Desenvolvido por Emanueli Martins para o projeto final da Reprograma ♥ turma On17
+                
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
